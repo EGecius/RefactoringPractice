@@ -10,20 +10,10 @@ public class ConvertToInstanceMethod {
         System.out.println("classB = " + classB);
     }
 
-    public void myMethod() {
-        MyClass.greatMethod(classA, classB);
-    }
-
     private class ClassA {
     }
 
     private class ClassB {
     }
 
-    static class MyClass {
-
-        private static void greatMethod(ClassA classA, ClassB classB) {
-
-        }
-    }
 }
