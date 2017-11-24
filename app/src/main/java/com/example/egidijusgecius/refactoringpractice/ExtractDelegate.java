@@ -2,7 +2,7 @@ package com.example.egidijusgecius.refactoringpractice;
 
 public class ExtractDelegate {
 
-    public class Foo {
+    public static class Foo {
         private String b;
 
         public String getInfo() {
@@ -10,7 +10,7 @@ public class ExtractDelegate {
         }
     }
 
-    public class Bar {
+    public static class Bar {
         Foo foo;
         String t2 = foo.getInfo();
     }
