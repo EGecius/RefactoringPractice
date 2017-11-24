@@ -2,14 +2,13 @@ package com.example.egidijusgecius.refactoringpractice;
 
 public class ReplaceConstructorWithFactoryMethod {
 
-    public class Class {
-        public Class(String s) {
-        }
+    ReplaceConstructorWithFactoryMethod(String String) {
     }
 
     public class AnotherClass {
         public void method() {
-            Class aClass = new Class("string");
+            ReplaceConstructorWithFactoryMethod aClass =
+                    new ReplaceConstructorWithFactoryMethod("string");
         }
     }
 }
