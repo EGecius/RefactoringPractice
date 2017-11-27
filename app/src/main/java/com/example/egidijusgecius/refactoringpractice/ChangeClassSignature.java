@@ -11,6 +11,7 @@ public class ChangeClassSignature {
         // Here are the references to MyClass:
 
         MyClass myClass;
+
         void myMethod(MyClass myClass) {
             // some code here
         }
