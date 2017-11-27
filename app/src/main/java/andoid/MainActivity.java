@@ -1,7 +1,9 @@
-package com.example.egidijusgecius.refactoringpractice;
+package andoid;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.example.egidijusgecius.refactoringpractice.R;
 
 public class MainActivity extends AppCompatActivity {
 
