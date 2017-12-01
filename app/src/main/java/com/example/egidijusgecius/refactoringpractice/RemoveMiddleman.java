@@ -3,24 +3,27 @@ package com.example.egidijusgecius.refactoringpractice;
 public class RemoveMiddleman {
 
     public class Foo {
-        Bar bar;
-        public Foo getImpValue() {
-            return bar.getImpValue();
+        Middleman middleman;
+
+        public Foo getFoo() {
+            return middleman.getFoo();
         }
     }
 
-    public class Bar {
-        private Foo impValue1;
-        public Bar(Foo impValue) {
-            impValue1 = impValue;
+    public class Middleman {
+        private Foo foo;
+
+        public Middleman(Foo foo) {
+            this.foo = foo;
         }
-        public Foo getImpValue() {
-            return impValue1;
+
+        public Foo getFoo() {
+            return foo;
         }
     }
 
     public class Client {
         Foo a;
-        Foo impValue = a.getImpValue();
+        Foo foo2 = a.getFoo();
     }
 }
