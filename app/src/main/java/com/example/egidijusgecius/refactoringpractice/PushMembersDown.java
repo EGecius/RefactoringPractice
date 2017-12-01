@@ -1,6 +1,6 @@
 package com.example.egidijusgecius.refactoringpractice;
 
-public class PullMembersDown {
+public class PushMembersDown {
 
     public class Class extends SuperClass {
         @Override
