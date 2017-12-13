@@ -5,6 +5,8 @@ import android.view.View;
 
 public class GenerateViewConstructors extends View {
 
+    // add constructors
+
 
     public GenerateViewConstructors(Context context) {
         super(context);
