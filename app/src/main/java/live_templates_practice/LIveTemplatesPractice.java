@@ -1,15 +1,10 @@
 package live_templates_practice;
 
-import android.content.Context;
-
 public class LIveTemplatesPractice {
 
-    String field1;
     //  constant
-    Integer field2;
-    //  constant - key
-    Context context;
 
+    //  constant - key
 
     // Toast - make & show
     void showToast() {
