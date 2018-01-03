@@ -8,8 +8,6 @@ public class PushMembersDown {
         myClass.publicMethod();
     }
 
-
-
     public class Class extends SuperClass {
         @Override
         public void publicMethod() {
