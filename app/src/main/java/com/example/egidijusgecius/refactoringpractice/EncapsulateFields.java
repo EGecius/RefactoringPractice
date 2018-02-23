@@ -13,4 +13,5 @@ public class EncapsulateFields {
             aClass.string = "string";
         }
     }
+
 }
